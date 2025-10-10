@@ -1,0 +1,28 @@
+body {
+  font-family: system-ui, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0a0f24, #1e2a78);
+  color: white;
+  margin: 0;
+}
+
+main {
+  text-align: center;
+  max-width: 600px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+#log {
+  margin-top: 2rem;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  border-radius: 8px;
+  font-family: monospace;
+}
